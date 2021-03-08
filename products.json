@@ -1,0 +1,232 @@
+[
+  {
+    "name": "Гранит",
+    "price": 1850,
+    "category": "disign",
+    "image": "granit.jpg",
+    "id": "granit",
+    "natural": true,
+    "delivery": true,
+    "discount": 0
+  },
+  {
+    "name": "Песчаник",
+    "price": 550,
+    "category": "disign",
+    "image": "peschannik.jpg",
+    "id": "peschannik",
+    "natural": true,
+    "delivery": true,
+    "discount": 0
+  },
+  {
+    "name": "Травертин",
+    "price": 4537,
+    "category": "disign",
+    "image": "travertin.jpg",
+    "id": "travertin",
+    "natural": true,
+    "delivery": true,
+    "discount": 20
+  },
+  {
+    "name": "Златолит",
+    "price": 2237,
+    "category": "disign",
+    "image": "zlatolit.jpg",
+    "id": "zlatolit",
+    "natural": true,
+    "delivery": true,
+    "discount": 30
+  },
+  {
+    "name": "Плитняк",
+    "price": 668,
+    "category": "disign",
+    "image": "plitnyak.jpg",
+    "id": "plitnyak",
+    "natural": true,
+    "delivery": true,
+    "discount": 20
+  },
+  {
+    "name": "Галтованный камень",
+    "price": 1118,
+    "category": "track",
+    "image": "galtov.jpg",
+    "id": "galtovanniy",
+    "natural": true,
+    "delivery": true,
+    "discount": 40
+  },
+  {
+    "name": "Валуны для сада",
+    "price": 9877,
+    "category": "track",
+    "image": "valun.jpg",
+    "id": "valun",
+    "natural": true,
+    "delivery": true,
+    "discount": 10
+  },
+  {
+    "name": "Брусчатка из камня",
+    "price": 4547,
+    "category": "track",
+    "image": "bruschatka.jpg",
+    "id": "brushchatka",
+    "natural": true,
+    "delivery": true,
+    "discount": 0
+  },
+  {
+    "name": "Глыбы",
+    "price": 1433,
+    "category": "track",
+    "image": "glibi.jpg",
+    "id": "glibi",
+    "natural": true,
+    "delivery": true,
+    "discount": 20
+  },
+  {
+    "name": "Галька",
+    "price": 1409,
+    "category": "track",
+    "image": "galka.jpg",
+    "id": "galka",
+    "natural": true,
+    "delivery": true,
+    "discount": 10
+  },
+  {
+    "name": "Гранитная крошка",
+    "price": 1334,
+    "category": "cladding",
+    "image": "granitkrosh.jpg",
+    "id": "granitcrosh",
+    "natural": true,
+    "delivery": true,
+    "discount": 0
+  },
+  {
+    "name": "Мраморная крошка",
+    "price": 1334.5,
+    "category": "cladding",
+    "image": "mramorcrosh.jpg",
+    "id": "mramorcrosh",
+    "natural": true,
+    "delivery": true,
+    "discount": 40
+  },
+  {
+    "name": "Панели из натурального камня",
+    "price": 1246.4,
+    "category": "cladding",
+    "image": "panel.jpg",
+    "id": "panel",
+    "natural": true,
+    "delivery": false,
+    "discount": 0
+  },
+  {
+    "name": "Известняк",
+    "price": 1624.9,
+    "category": "cladding",
+    "image": "izvestnyak.jpg",
+    "id": "izvestnyak",
+    "natural": true,
+    "delivery": false,
+    "discount": 40
+  },
+  {
+    "name": "Мраморная крошка в мешках",
+    "price": 1234.5,
+    "category": "cladding",
+    "image": "kroshmeshok.png",
+    "id": "mramorcrosh",
+    "natural": true,
+    "delivery": false,
+    "discount": 0
+  },
+  {
+    "name": "White Hills",
+    "price": 1112.5,
+    "category": "cladding",
+    "image": "whitehills.jpg",
+    "id": "whitehills",
+    "natural": false,
+    "delivery": false,
+    "discount": 0
+  },
+  {
+    "name": "Малахит",
+    "price": 1982.5,
+    "category": "inner",
+    "image": "malahit.jpg",
+    "id": "malahit",
+    "natural": false,
+    "delivery": false,
+    "discount": 10
+  },
+  {
+    "name": "EcoStone",
+    "price": 1332.5,
+    "category": "inner",
+    "image": "ecostone.jpg",
+    "id": "ecostone",
+    "natural": false,
+    "delivery": false,
+    "discount": 0
+  },
+  {
+    "name": "AtlasStone",
+    "price": 2488.5,
+    "category": "inner",
+    "image": "atlas.jpg",
+    "id": "atlasStone",
+    "natural": false,
+    "delivery": false,
+    "discount": 10
+  },
+  {
+    "name": "Eurokam (Еврокам)",
+    "price": 6008.5,
+    "category": "inner",
+    "image": "evrokam.jpg",
+    "id": "eurokam",
+    "natural": false,
+    "delivery": false,
+    "discount": 10
+  },
+  {
+    "name": "Фабрика камня",
+    "price": 6599.3,
+    "category": "inner",
+    "image": "fabrika.jpg",
+    "id": "fabrika",
+    "natural": false,
+    "delivery": false,
+    "discount": 10
+  },
+  {
+    "name": "Рок престиж",
+    "price": 1523.6,
+    "category": "inner",
+    "image": "rock.jpg",
+    "id": "rock",
+    "natural": false,
+    "delivery": false,
+    "discount": 20
+  },
+  {
+    "name": "New Technologies Stone",
+    "price": 6700,
+    "category": "inner",
+    "image": "newstone.jpg",
+    "id": "New Technologies Stone",
+    "natural": false,
+    "delivery": false,
+    "discount": 30
+  }
+]
