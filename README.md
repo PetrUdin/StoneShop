@@ -1,1 +1,1 @@
-# StoneShop
+# StoneShop - магазин камня!
