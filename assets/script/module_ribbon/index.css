@@ -1,0 +1,26 @@
+.ribbon__inner {
+  padding-bottom: 15px;
+  margin-bottom: -15px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.ribbon__item {
+  color: black;
+  padding: 13px 38px;
+  font-size: 21px;
+  line-height: 1.2;
+  font-weight: 500;
+  text-decoration: none;
+  cursor: pointer;
+  border-bottom: solid 3px #FFFFFf;
+}
+.ribbon__item:hover {
+  color: #d6283a;
+}
+.ribbon__item.ribbon__item_active {
+  background-color: #d6283a;
+  border-radius: 10px;
+  color:white;
+}
