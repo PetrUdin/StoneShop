@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Магазин камня</title>
+    <link rel="icon" href="./assets/favicon/1.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="./assets/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/slick/slick-theme.css" />
+    <link rel="stylesheet"  href="all.css">
+    <link rel="stylesheet"  href="./assets/styles/main.css">
+    <script type="module">
+        import Main from './index.js';
+        let main = new Main();
+        main.render()
+      </script>
+</head>
+
+<body>
+    <main class="page">
+        <header class="header">
+            <div class="header__container container">
+                <div class="header__menu">
+                    <a href="index.html" class="header__item">Главная</a>
+                    <a href="#catalog" class="header__item">Каталог</a>
+                    <a href="#collaboration" class="header__item">Сотрудничество</a>
+                    <a href="#contact" class="header__item">Контакты</a>
+                </div>
+                <div class="header__actions">
+                    <span class="header__rate">%</span>
+                    <a href="#" class="header__action">Акции</a>
+                </div>
+            </div>
+        </header>
+        <section class="nav">
+            <div class="nav__container container">
+                <div class="nav__link nav__link-phone">
+                    <div class="nav__icon-wrap">
+                        <a href="#callback"><img src="./assets/images/icons/phone.png" alt="" class="nav__ico"></a>
+                    </div>
+                    <div class="nav__text-wrap">
+                        <a href="#callback">
+                            <span class="nav__text">Заказать</span>
+                        </a>
+                        <a href="#callback">
+                            <span class="nav__text_min">Обратный звонок</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="nav__logo">
+                    <img src="./assets/images/icons/logo.png" alt="logo" class="nav__ico">
+                </div>
+                <div class="nav__link">
+                    <div data-cart-icon-holder>
+                      </div>
+                </div>
+                <div class="nav__link">
+                    <div class="nav__text-wrap">
+                        <a class="nav__tel" href="tel:+79855642585">+7 (985) 564-25-85</a>
+                        <a href="mailto:admin@stone.com" class="nav__mail mail">admin@stone.com</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="slider">
+            <div class="slider__container container">
+                <div class="sl">
+                    <div class="sl__slide">
+                        <a href="#" class="slider__link"><img src="./assets/images/slider/s1.jpg" alt="slide-img"></a>
+                        <div class="sl__text">
+                            <h3 class="sl__name">Самый большой ассортимент</h3>
+                            <p class="sl__desc">в Москве</p>
+                        </div>
+                    </div>
+                    <div class="sl__slide">
+                        <a href="#" class="slider__link"><img src="./assets/images/slider/s2.jpg" alt="slide-img"></a>
+                        <div class="sl__text">
+                            <h3 class="sl__name">Оперативная доставка</h3>
+                            <p class="sl__desc">в Москве и Московской области</p>
+                        </div>
+                    </div>
+                    <div class="sl__slide">
+                        <a href="#" class="slider__link"><img src="./assets/images/slider/s3.jpg" alt="slide-img"></a>
+                        <div class="sl__text">
+                            <h3 class="sl__name">Гарантия низкой цены</h3>
+                            <p class="sl__desc">самые низкие цены</p>
+                        </div>
+                    </div>
+                    <div class="sl__slide">
+                        <a href="#" class="slider__link"><img src="./assets/images/slider/s4.jpg" alt="slide-img"></a>
+                        <div class="sl__text">
+                            <h3 class="sl__name">Самые редкие камни</h3>
+                            <p class="sl__desc">из разных уголков мира</p>
+                        </div>
+                    </div>
+                    <div class="sl__slide">
+                        <a href="#" class="slider__link"><img src="./assets/images/slider/s5.jpg" alt="slide-img"></a>
+                        <div class="sl__text">
+                            <h3 class="sl__name">Дизайн</h3>
+                            <p class="sl__desc">наш дизайнер поможет с выбором</p>
+                        </div>
+                    </div>
+                    <div class="sl__slide">
+                        <a href="#" class="slider__link"><img src="./assets/images/slider/s6.jpg" alt="slide-img"></a>
+                        <div class="sl__text">
+                            <h3 class="sl__name">Доставка</h3>
+                            <p class="sl__desc">доставка по всей России</p>
+                        </div>
+                    </div>
+                    <div class="sl__slide">
+                        <a href="#" class="slider__link"><img src="./assets/images/slider/s7.jpg" alt="slide-img"></a>
+                        <div class="sl__text">
+                            <h3 class="sl__name">Оптовым покупателям</h3>
+                            <p class="sl__desc">скидки</p>
+                        </div>
+                    </div>
+                    <div class="sl__slide">
+                        <a href="#" class="slider__link"><img src="./assets/images/slider/s8.jpg" alt="slide-img"></a>
+                        <div class="sl__text">
+                            <h3 class="sl__name">Заказ</h3>
+                            <p class="sl__desc">заказ любого камня</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="catalog" id="catalog">
+            <div class="catalog__container container">
+                <h2 class="catalog__header title__section">Каталог</h2>
+                <div data-ribbon-holder></div>
+            </div>
+
+            <div class="container">
+                <div class="filters">
+                  <div class="filters__inner">
+                    <div class="filters__group">
+                      <div class="filters__checkbox">
+                        <input
+                          class="styled-checkbox"
+                          id="natural-checkbox"
+                          type="checkbox"
+                          value="1"
+                        >
+                        <label for="natural-checkbox">
+                          <span class="filters__label">Искусственный камень</span>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="filters__group">
+                      <div class="filters__checkbox">
+                        <input
+                          class="styled-checkbox"
+                          id="delivery-checkbox"
+                          type="checkbox"
+                          value="1"
+                        >
+                        <label for="delivery-checkbox">
+                          <span class="filters__label">Бесплатная доставка</span>
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          
+              <div class="container" data-products-grid-holder>
+                <div class="products-grid is-loading">
+                  <div class="products-grid__skeleton">
+                    <div class="products-grid__skeleton-item"></div>
+                    <div class="products-grid__skeleton-item"></div>
+                    <div class="products-grid__skeleton-item"></div>
+                    <div class="products-grid__skeleton-item"></div>
+                    <div class="products-grid__skeleton-item"></div>
+                    <div class="products-grid__skeleton-item"></div>
+                  </div>
+                  <div class="products-grid__inner"></div>
+                </div>
+              </div>
+        </section>
+
+        <section class="advantage">
+            <div class="advantage__container container">
+                <h2 class="advantage__header title__section">Приемущества</h2>
+                <div class="advantages__items">
+                    <div class="advantages__item">
+                        <img src="./assets/images/icons/const.png" alt="Консультанты" class="advantages__ico">
+                        <span class="advantages__text">Опытные консультанты</span>
+                    </div>
+                    <div class="advantages__item">
+                        <img src="./assets/images/icons/vibor.png" alt="Выбор" class="advantages__ico">
+                        <span class="advantages__text">Большой выбор камня от производителей</span>
+                    </div>
+                    <div class="advantages__item">
+                        <img src="./assets/images/icons/divelery.png" alt="Доставка" class="advantages__ico">
+                        <span class="advantages__text">Выгодные условия доставки</span>
+                    </div>
+                    <div class="advantages__item">
+                        <img src="./assets/images/icons/asso.png" alt="Ассортимент" class="advantages__ico">
+                        <span class="advantages__text">Большой ассортимент в торговых точках</span>
+                    </div>
+                    <div class="advantages__item">
+                        <img src="./assets/images/icons/klass.png" alt="класс" class="advantages__ico">
+                        <span class="advantages__text">Удобный подъезд к торговым точкам</span>
+                    </div>
+                    <div class="advantages__item">
+                        <img src="./assets/images/icons/save.png" alt="сохранение" class="advantages__ico">
+                        <span class="advantages__text">Бесплатное хранение</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+       
+        <section class="delivery" id="delivery">
+            <div class="delivery__container container">
+                <h2 class="delivery__header title__section">Доставка и оплата</h2>
+                   <ul class="delivery__list">
+                       <li class="delivery__item">Доставка заказов по Москве осуществляется круглосуточно без выходных дней.</li>
+                       <li class="delivery__item">Дата доставки заказа зависит от времени его оформления.</li>
+                       <li class="delivery__item">Осуществить возврат заказа можно только в момент доставки при соблюдения правил и порядка обмена/возврата товара.</li>
+                       <li class="delivery__item">Оплата наличными прои получении заказа</li>
+            </div>
+        </section>
+
+        <section class="company">
+            <div class="company__container container">
+                <h2 class="company__header title__section">О КОМПАНИИ</h2>
+                <img src="" alt="" class="company__line">
+                <h3 class="company__subtitle">Продажа натурального камня с доставкой в Москве</h3>
+                <p class="company__text">
+                    Мы уже более 10 лет работаем в сфере реализации природного и искусственного камня. Мы с огромным
+                    удовольствием предлагаем Вам широчайший ассортимент натурального камня для отделки, мощения,
+                    ландшафтного дизайна - песчаники, доломиты и известняки, сланцы
+                    и кварциты, гранит, мрамор, травертин, речная и морская галька, крупные валуны, мраморная и
+                    гранитная крошка. Также мы предлагаем камень с различной обработкой - дикий, рваный, галтованный,
+                    пиленный (плитка, брусчатка), колотый, обожженый.
+                </p>
+                <p class="company__text">
+                    Компания "Магазин Камня" является представителем более 10 самых крупных производителей
+                    искусственного камня, таких как "White Hills", "Leonardo Stone', "EcoStone", "КАМРОК", "МАЛАХИТ",
+                    "Eurokam", "Идеальный камень", "Аеролита" и др. Сотрудничество с нашей
+                    компанией создаст Вам идеальные условия для воплощения фантазий и даст прекрасную возможность
+                    создавать истинные шедевры за удивительно низкую цену.
+                </p>
+                <p class="company__text-bold">
+                    Осуществляйте заказ, узнавайте о текущих скидках и получайте ответы на интересующие Вас вопросы по
+                    телефону 8 (495) 769-65-44, подробную контактную информацию Вы можете найти в разделе "Контакты".
+                </p>
+            </div>
+        </section>
+
+        <section class="collaboration" id="collaboration">
+            <div class=" collaboration__container container">
+                <h2 class=" collaboration__header title__section">Сотрудничество</h2>
+                 <p class="collaboration__text">Приглашаем к сотрудничеству региональные компании! Звоните!</p>
+        </section>
+
+        <section class="callback">
+            <div class="callback__container container">
+                <h2 class="callback__header header" id="callback">ОБРАТНЫЙ ЗВОНОК</h2>
+                <h3 class="callback__subtitle">Оставьте заявку на консультацию и получите скидку на первый заказ!</h3>
+                <div class="callback__main">
+                    <form action="" class="callback__form" method="post" enctype="multipart/form-data" action="send.php"
+                        id="form">
+                        <div class="form__inputs">
+                            <input name="name" type="text" class="form__input name" id="name" placeholder="Ваше имя*"
+                                required>
+                            <input name="phone" id="phone" class="form__input phone1" type="phone"
+                                placeholder="Ваш телефон" required>
+                            <input name="email" type="email" class="form__input email" id="email"
+                                placeholder="Ваша почта*" required>
+                            <div class="checkbox">
+                                <input class="checkbox_privacy" type="checkbox" id="check" checked><label for="check">
+                                    Согласен на обработку персональных данных
+                           </label>
+                             </div>
+                        </div>
+                        <div class="form__buttons">
+                            <button class="form__btn send" type="submit">Отправить</button>
+                        </div>
+                    </form>
+                    <div class="callback__img-wrap">
+                        <img src="./assets/images/icons/feedback-stone.png" alt="" class="callback__img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer" id="contact">
+            <div class="footer__container container">
+                <div class="footer__row-1">
+                    <div class="footer__nav">
+                        <div class="footer__items">
+                            <a href="#delivery" class="footer__item">Доставка и оплата</a>
+                            <a href="index.html" class="footer__item">Глвная</a>
+                            <a href="#collaboration" class="footer__item">Сотрудничество</a>
+                            <a href="#catalog" class="footer__item">Каталог</a>
+                        </div>
+                    </div>
+                    <div class="footer__social">
+                        <a href="#" class="header__inst inst"> <img src="./assets/images/icons/instagram.png" alt="inst"
+                                class="icon-social"></a>
+                        <a href="#" class="header__vk vk"> <img src="./assets/images/icons/vkontakte.png" alt="vk"
+                                class="icon-social"></a>
+                        <a href="#" class="header__face face"> <img src="./assets/images/icons/facebook.png" alt=-"facebook"
+                                class="icon-social"></a>
+                    </div>
+                    <div class="footer__contact">
+                        <a class="header__tel" href="tel:+79855642585"><img src="" alt="">+7 (985) 564-25-85</a>
+                        <a class="header__tel" href="tel:+79855642585"><img src="" alt="">+7 (985) 564-25-85</a>
+                        <a href="mailto:admin@gonchar.ru" class="footer__mail mail"> <img src="./assets/images/icons/red-mail.png" alt="face"
+                                class="icon-social">stone@gmail.com</a>
+                        <span class="footer__line"><img src="./assets/images/icons/location.png" alt="">МО, г. Зеленоград,<br> д. Дурыкино, Ленинградское
+                            шоссе,
+                            д. 55</span>
+                    </div>
+                </div>
+                <div class="footer__row-2">
+                    <span class="footer__line">Магазин камня © 2021</span>
+                    <div class="footer__title-wrap">
+                        <h2 class="footer__title header">Магазин <span class="red">камня</span></h2>
+                        <span class="footer__subtitle">натуральный и искусственный камень</span>
+                    </div>
+                    <span class="footer__line"></span>
+                </div>
+            </div>
+        </footer>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="index.js"></script>
+    <script type="text/javascript" src="./assets/slick/slick.min.js"></script>
+</body>
+</html>
